@@ -1,39 +1,34 @@
-<!--
-This README describes the package. If you publish this package to pub.dev,
-this README's contents appear on the landing page for your package.
+# Api Client Package
 
-For information about how to write a good package README, see the guide for
-[writing package pages](https://dart.dev/guides/libraries/writing-package-pages).
+[![Pub Version](https://img.shields.io/pub/v/api_client.svg)](https://pub.dev/packages/api_client)
+[![Build Status](https://img.shields.io/github/actions/workflow/status/your_github_username/api_client/build.yml)](https://github.com/your_github_username/api_client/actions)
+[![License](https://img.shields.io/badge/license-MIT-blue.svg)](https://opensource.org/licenses/MIT)
 
-For general information about developing packages, see the Dart guide for
-[creating packages](https://dart.dev/guides/libraries/create-library-packages)
-and the Flutter guide for
-[developing packages and plugins](https://flutter.dev/developing-packages).
--->
+## About
 
-TODO: Put a short description of the package here that helps potential users
-know whether this package might be useful for them.
+`api_client` is a Flutter package designed to simplify API calls using Retrofit. With this package, you can easily create request and response models, handle API calls, and manage Dio errors efficiently.
 
 ## Features
 
-TODO: List what your package can do. Maybe include images, gifs, or videos.
+- **Easy API Integration**: Simplify your API calls using Retrofit.
+- **Request and Response Models**: Organize your API requests and responses with dedicated models.
+- **Dio Error Handling**: Manage Dio exceptions with a custom helper class.
 
-## Getting started
+## Installation
 
-TODO: List prerequisites and provide or point to information on how to
-start using the package.
+Add the following to your `pubspec.yaml` file:
 
-## Usage
-
-TODO: Include short and useful examples for package users. Add longer examples
-to `/example` folder.
-
-```dart
-const like = 'sample';
+```yaml
+dependencies:
+  api_client:
+    path: packages/api_client 
 ```
+## Screenshots
 
-## Additional information
+- package structure:
+  
+![](screen_shots/Screenshot_1.png)   
 
-TODO: Tell users more about the package: where to find more information, how to
-contribute to the package, how to file issues, what response they can expect
-from the package authors, and more.
+- how to use it:
+  
+![](screen_shots/Screenshot_2.png)
